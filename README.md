@@ -1,16 +1,18 @@
 # Streamlit-Blockchain
+## PyChain: 
 A Streamlit UI enabling users to enter data and store it in a blockchain. 
-### libraries and dependancies
-import pandas as pd
-from typing import Any, List
-import datetime as datetime
-import streamlit as st # pip install streamlit
-from dataclasses import dataclass
-import hashlib
+### Libraries and dependancies
+import pandas as pd;
+from typing import Any, List;
+import datetime as datetime;
+import streamlit as st;
+from dataclasses import dataclass;
+import hashlib;
+* pip install streamlit
 * From within the directory where this code resides, open Streamlit using `streamlit run pychain.py`.
 
 ## Synopsis
-This project runs a cached version of Streamlit. It will hold the data information for as long as the project remains open in the browser.
+This project utilising Streamlit, allows a user to create and review a simple Blockchain called PyChain. The interface is designed to easily input data into 'blocks' that are added to form a simple expression of a Blockchain and review its component parts. It runs a cached version of Streamlit. It will hold the data information for as long as the project remains open in the browser.
 ### In the main panel:
 * There are user inputs for sender, reciever and amount of 'Eth' sent. 
 * Input fields can be retained to modify for next transaction or cleared for new inputs
