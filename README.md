@@ -18,7 +18,7 @@ This project utilising Streamlit, allows a user to create and review a simple Bl
 * Input fields can be retained to modify for next transaction or cleared for new inputs
 * Each transaction records onto a block of the blockchain.
 * Block data such as input data record, timestamp, previous hash and nonce value are recorded and displayed.
-The validity of block transactions can be verified at a click.
+* The validity of block transactions can be verified at a click.
 !['image of valid transaction'](pychain_valid.png)
 ### On the side panel: 
 * There is a slider to adjust the difficulty of the 'Proof of work' requirements
